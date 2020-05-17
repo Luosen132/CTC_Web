@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="CTC"
+  id="myeclipse.1515576617808"
+  context-root="/CTC"
+  j2ee-spec="5.0"
+  archive="CTC.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

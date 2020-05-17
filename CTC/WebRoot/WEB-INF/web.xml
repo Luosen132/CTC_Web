@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <servlet>
+  <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Add_Prservlet</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.Add_Prservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddCqc</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.AddCqc</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddActivity</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.AddActivity</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ActivityForPage</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.ActivityForPage</servlet-class>
+  </servlet>
+  
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CheckYanzheng</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.CheckYanzheng</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AddAcademic</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.AddAcademic</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AdminCheckYan</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.AdminCheckYan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>UserCheckYan</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.UserCheckYan</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>AddUserCheckYan</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.AddUserCheckYan</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ModifPicture</servlet-name>
+    <servlet-class>com.xmlg.ctc.servlet.ModifPicture</servlet-class>
+  </servlet>
+ 
+  
+
+
+
+ <servlet-mapping>
+    <servlet-name>AddCqc</servlet-name>
+    <url-pattern>/AddCqc</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddActivity</servlet-name>
+    <url-pattern>/AddActivity</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ActivityForPage</servlet-name>
+    <url-pattern>/ActivityForPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CheckYanzheng</servlet-name>
+    <url-pattern>/CheckYanzheng</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Add_Prservlet</servlet-name>
+    <url-pattern>/Add_Prservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddAcademic</servlet-name>
+    <url-pattern>/AddAcademic</url-pattern>
+  </servlet-mapping>
+  
+  <servlet-mapping>
+    <servlet-name>AdminCheckYan</servlet-name>
+    <url-pattern>/AdminCheckYan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserCheckYan</servlet-name>
+    <url-pattern>/UserCheckYan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AddUserCheckYan</servlet-name>
+    <url-pattern>/AddUserCheckYan</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ModifPicture</servlet-name>
+    <url-pattern>/ModifPicture</url-pattern>
+  </servlet-mapping>
+  
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
